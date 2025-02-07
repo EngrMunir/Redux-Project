@@ -4,5 +4,5 @@ export interface ITask {
     description:string;
     deuDate:string;
     isCompleted:boolean;
-    priority:"High"|"Medium"|"Low";
+    priority:"high"|"medium"|"low";
 }
