@@ -10,13 +10,14 @@ const routes = createBrowserRouter([
         element:<App/>,
         children:[
             {
+                index:true,
+                element:<Tasks/>
+            },
+            {
                 path:'users',
                 element:<Users/>
             },
-            {
-                path:'tasks',
-                element:<Tasks/>
-            }
+            
         ]
     },
     {
