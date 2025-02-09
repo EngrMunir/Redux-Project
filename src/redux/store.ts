@@ -3,7 +3,8 @@ import taskReducer from "./features/task/taskSlice"
 
 export const store = configureStore({
     reducer:{
-        todo:taskReducer
+        todo:taskReducer,
+        user:userReducer,
     },
 });
 
